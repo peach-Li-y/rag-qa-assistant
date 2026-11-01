@@ -74,6 +74,8 @@ rag-qa-assistant/
 ├── README.md                  # 项目说明文档（本文件）
 ├── data/
 │   └── README.txt             # 课件 PDF 放置说明
+├── docs/
+│   └── app-screenshot.png     # 应用运行效果截图
 ├── model_cache/               # 本地向量模型缓存（已被 .gitignore 忽略，首次运行自动下载）
 └── venv/                      # Python 虚拟环境（已被 .gitignore 忽略）
 ```
@@ -157,6 +159,12 @@ http://localhost:8501
 - `Clone、Fork、Commit、Push、Pull 分别是什么意思？`
 
 页面将展示大模型基于课件生成的回答，并在「查看参考来源片段」折叠面板中列出命中的课件片段与页码。
+
+### 运行效果
+
+![应用问答运行效果](docs/app-screenshot.png)
+
+> 提问「Git 的三大工作区分别是什么？」后，模型基于课件给出答案，并标注命中的课件页码与原文片段。
 
 ## 九、代码结构说明（`app.py`）
 
