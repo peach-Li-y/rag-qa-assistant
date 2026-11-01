@@ -10,7 +10,7 @@
 | 使用 **在线大模型**（或离线大模型） | 在线大模型：通过 OpenAI 兼容接口调用火山方舟 **豆包 `doubao-seed-2-0-mini`**；语义向量模型为本地离线模型 `shibing624/text2vec-base-chinese` | ✅ |
 | 开发一款**智能应用** | Streamlit 网页应用：自然语言提问 → 自动检索课件 → 大模型生成答案 → 展示参考来源片段与页码 | ✅ |
 | 提供 **README 文档说明** | 即本文档 | ✅ |
-| 附带**开源仓库链接** | 见文末「仓库地址」一节，推送远程后回填 | ⏳ |
+| 附带**开源仓库链接** | GitHub 公开仓库，见文末「十四、仓库地址」一节 | ✅ |
 
 ## 二、功能特性
 
@@ -89,7 +89,7 @@ rag-qa-assistant/
 ### 1. 克隆或下载本仓库
 
 ```powershell
-git clone <仓库链接>
+git clone git@github.com:peach-Li-y/rag-qa-assistant.git
 cd rag-qa-assistant
 ```
 
@@ -205,6 +205,6 @@ http://localhost:8501
 
 ## 十四、仓库地址
 
-> 推送至远程仓库后在此填写：
-
-- GitHub / Gitee：`<待回填>`
+- GitHub（公开仓库）：<https://github.com/peach-Li-y/rag-qa-assistant>
+- SSH 克隆地址：`git@github.com:peach-Li-y/rag-qa-assistant.git`
+- HTTPS 克隆地址：`https://github.com/peach-Li-y/rag-qa-assistant.git`
